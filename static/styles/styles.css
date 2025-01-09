@@ -44,6 +44,22 @@ ul{
   background-color: rgb(145, 145, 145);
   box-shadow: 0 3px 10px rgb(0, 0, 0, 0.15);
 }
+
+.footer{
+  position:absolute;
+  background-color: rgba(145, 145, 145, 0.15);
+  box-shadow: 3px 0 10px rgb(0, 0, 0, 0.15);
+  bottom:0;
+  right:0;
+  left:0;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+  color: black;
+}
+
 .logo{
 
   height: 175px;
@@ -54,7 +70,7 @@ ul{
 .links{
 display: flex;
 column-gap: 10px;
-font-size:x-large;
+font-size:large;
 font-family: sans-serif;
 
 }
@@ -62,4 +78,23 @@ font-family: sans-serif;
 .link-item{
 
 
+}
+
+.container{
+  width: 85%;
+  /* margin-left: 50px; */
+  background-color: aqua;
+  border-style: solid;
+  border-color: red;
+  /* height: 2000px; */
+  position: absolute;
+  top:100vh;
+  /* bottom:10px; */
+  /* align-items: center; */
+  /* justify-content: center; */
+
+  /* top: 50%; */
+  left: 7.5%;
+  right:7.5%;
+  z-index: -1;w
 }

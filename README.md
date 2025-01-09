@@ -1,6 +1,7 @@
 # MadMapleFarm
 
-This is the README file explaining how to use this website.
+This README file shows how to review your website 'offline'.
+
 
 ## Technologies
 1. JavaScript
@@ -18,7 +19,7 @@ This is the README file explaining how to use this website.
 
 1. Step #1
 
-If on Mac OS 'Command + space' to open spotlight search. Type in 'Terminal' and hit enter/return. This will bring up your computers terminal application. 
+On your Mac use 'Command + space' to open spotlight search. Type in 'Terminal' and hit enter/return. This will bring up your computers terminal application. 
 
 2. Step #2
 
@@ -39,12 +40,11 @@ $ pwd
 
 ```
 
-You should see '/Users/username/desktop'
+You should see '/Users/username/desktop' where 'username' is your username. 
 
 3. Step #3
 
 Use the git clone feature to pull this repository from github and install it on your local machine. 
-
 
 ```bash
 
@@ -52,7 +52,7 @@ $ git clone git@github.com:goldendoggies/MadMapleFarm.git
 
 ```
 
-Then cd to the main directory, MadMampleFarm
+Then cd to the main project directory, a folder called 'MadMampleFarm'
 
 ```bash
 
