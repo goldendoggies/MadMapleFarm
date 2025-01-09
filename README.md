@@ -39,7 +39,7 @@ $ pwd
 
 ```
 
-You should see '/Users/<your username>/desktop'
+You should see '/Users/username/desktop'
 
 3. Step #3
 
