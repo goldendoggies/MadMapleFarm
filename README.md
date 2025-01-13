@@ -76,3 +76,12 @@ $ open ./index.html
 
 Enjoy!
 
+## TO DO
+[] Get feedback on initial first take of Mad Maple Farm website
+[] Review spreadsheet and other ideas with Alex/Gus
+[] Add more and better content to each page
+[] Add links to Facebook and Instagram
+[] Use better photos for each page, format content better
+[] Use Instagram API to link Instagram to Website? 
+[] Create OneNote to share content between Alex/Gus/John
+[] Consider what else needs to be added. Custom Email addresses? Other team members? Horses? Etc..
