@@ -2,6 +2,7 @@
 
 This README file shows how to review your website 'offline'.
 
+Check it out Live! https://goldendoggies.github.io/MadMapleFarm/
 
 ## Technologies
 1. JavaScript
