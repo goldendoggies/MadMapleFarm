@@ -8,7 +8,7 @@
   position: relative;
   height: 100vh;
   width: 100%;
-  background-image: url('../images/ang2025-01-09\ 00_42_52.jpeg');
+  /* background-image: url('../images/ang2025-01-09\ 00_42_52.jpeg'); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,4 +71,8 @@ border-color: rgb(25, 128, 141); */
   background-image: url('../images/mmf_pattern_supersmall.png');
   /* border-style: solid;
   border-color: orange; */
+}
+
+.cards {
+  display:flex;
 }
