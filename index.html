@@ -3,137 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="./static/styles/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <title>Mad Maple Farm - Home</title>
     <style>
-        .page-img {
-            background-image: url('./static/images/ang2025-01-09\ 00_42_52.jpeg');
-        }
 
     </style>
 </head>
+
+
+
+
+
 <body>
-   
-    <div class="page-img">
-        <div class="nav">
-            <img class="logo" src="./static/images/mmf_logo_bw-nobg.png" alt="logo">
-            <ul class="links">
-                <li class="link-item">
-                    <a href="./index.html" class="link">Home</a>
-                </li>
-                <li class="link-item">
-                    <a href="./templates/services.html" class="link">Services</a>
-                </li>
-                <li class="link-item">
-                    <a href="./templates/gallery.html" class="link">Gallery</a>
-                </li>
-                <li class="link-item">
-                    <a href="./templates/about.html" class="link">About</a>
-                </li>
-            </ul>
-        </div>
-    </div>
 
-    <div class="background">
-        <div class="container" style="margin-bottom: 0px;">
-    
-            <h1 style="   
-            padding-bottom: 100px;
-         
-            display:block;
-            margin:auto;
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./static/images/mmf_logo_bw-nobg.png" height="225" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse justify-content-end" id="navbarToggler">
+          <div class="navbar-nav">
+              <a class="nav-link active" href="./index.html">Home</a>
+              <a class="nav-link active" href="./templates/services.html">Services</a>
+              <a class="nav-link active" href="./templates/gallery.html">Gallery</a>
+              <a class="nav-link active" href="./templates/about.html">About</a>
+          </div>
+      </div>
+    </nav>
+
+
+
+    <!-- feature photo -->
+    <div class="row">
+        <div class="col"></div>
+        <img class="img-fluid" src="./static/images/gus_services.jpeg" alt="img" >
+      </div>
+
+
+
+    <div class="container-fluid">
+
+
+        <div class="container">
+            <!-- Content here -->
+
+
+            <div class="row">
+                <div class="col">
+
+                    <img class="img-fluid center_photo" src="./static/images/mmf_logo_bw.png" alt="mmf_logo_bw">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                <div class="card border-light">
+                    <div class="card-body">
+                    <p>
+                        Welcome to Mad Maple Farm,LLC our premier hunter/jumper equestrian business, where decades of experience and a passion for
+                        excellence converge. Our journey in the horse industry has been shaped by working with some of the most prestigious
+                        riders and trainers, allowing us to develop a deep understanding and expertise in equestrian sports.
+                    </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="container" style="background-image: url('./static/images/mmf_pattern_supersmall_bw.png');">
             
-            display:flex;
-            align-items: center;  
-            justify-content: center;">Mad Maple Farms</h1>
-        
-        <p>Welcome to Mad Maple Farm, our premier hunter jumping horse business, where decades of experience and a passion for
-            excellence converge. Our journey in the horse industry has been shaped by working with some of the most prestigious
-            trainers, allowing us to develop a deep understanding and expertise in equestrian sports.
-        
-        </p>
-        
-
-
-        <img src="./static/images/gallery.jpeg" style="
-        width:500px; 
-        padding-bottom: 100px;
-
-        display:block;
-        margin:auto;
-        
-        display:flex;
-        align-items: center;  
-        justify-content: center;" >
-
-                <p>As a family-owned business, our roots run deep in the horse industry. Our families have dedicated their lives to the
-                    care, training, and success of horses and riders. This rich heritage has been the foundation upon which we have
-                    built our premier show barn, offering top-tier services to both advanced riders and those who are developing their
-                    skills.
-                </p>
-        </div>
-
-        <div class="container-xl" style="
-        background-color:rgb(199, 199, 199);
-        /* padding-bottom: 100px;
-        padding-top: 100px; */
-        ">
-        
-        <div class="container" style="
-        background-color:rgb(199, 199, 199);">
-
-        <p>
-            Our business is the result of merging several successful horse enterprises, creating an ultimate platform that
-            caters to the diverse needs of our students and clients. We are proud to offer a comprehensive range of services,
-            from personalized training programs to horse sales and leasing options, all designed to help you achieve your
-            equestrian goals.
-
-        </p>
-
-            <img src="./static/images/vert_tor_merge.jpeg" style="
-            width:500px; 
-            padding-bottom: 100px;
-
-            display:block;
-            margin:auto;
             
-            display:flex;
-            align-items: center;  
-            justify-content: center;" >
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <p>
+                                As a family-owned business, our roots run deep in the horse industry. Our families have dedicated their lives to the
+                                care, training, and success of horses and riders. This rich heritage has been the foundation upon which we have
+                                built our premier show barn, offering top-tier services to both advanced riders and those who are developing their
+                                skills.
+                            </p>
+                            <br>
+                            <p>
+                                Our business is the result of merging several successful horse enterprises, creating an ultimate platform that
+                                caters to the diverse needs of our students and clients. We are proud to offer a comprehensive range of services,
+                                from personalized training programs to horse sales and leasing options, all designed to help you achieve your
+                                equestrian goals.
+                            </p>
+                            <br>
+                            <p>
+                                Join our community and experience the unparalleled expertise and dedication that define our family business. Whether
+                                you are an experienced competitor or just beginning your journey in the hunter jumper world, we are here to support
+                                and guide you every step of the way.
+                            
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-
-                
-                <p>
-                    Join our community and experience the unparalleled expertise and dedication that define our family business. Whether
-                    you are an experienced competitor or just beginning your journey in the hunter jumper world, we are here to support
-                    and guide you every step of the way.
-                
-                </p>
 
         </div>
-    </div>
 
     </div>
-   
-    <div class="nav" style="background-color: rgb(231, 231, 231);">
-        <img class="logo" src="./static/images/mmf_logo_bw-nobg.png" alt="logo">
-        <ul class="links">
-            <li class="link-item">
-                <a href="./index.html" class="link">Home</a>
-            </li>
-            <li class="link-item">
-                <a href="./templates/services.html" class="link">Services</a>
-            </li>
-            <li class="link-item">
-                <a href="./templates/gallery.html" class="link">Gallery</a>
-            </li>
-            <li class="link-item">
-                <a href="./templates/about.html" class="link">About</a>
-            </li>
-        </ul>
-    </div>
- 
 
-    </body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="./static/images/mmf_logo_wob_nobg.png" height="225" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse justify-content-end" id="navbarToggler">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="./index.html">Home</a>
+            <a class="nav-link active" href="./templates/services.html">Services</a>
+            <a class="nav-link active" href="./templates/gallery.html">Gallery</a>
+            <a class="nav-link active" href="./templates/about.html">About</a>
+          </div>
+      </div>
+    </nav>
+
+
+</body>
 </html>
