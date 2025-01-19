@@ -1,4 +1,21 @@
 
+
+
+@font-face {
+  font-family: itc-stone-sans-std-semibold;
+  src: url("/static/styles/ITC-Stone-Sans-Std-Semibold.otf") format("opentype");
+}
+
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: itc-stone-sans-std-semibold;
+
+}
+
+
 .center_photo {
   width:60%; 
   /* padding-top: 100px; */
@@ -10,12 +27,6 @@
   display:flex;
   align-items: center;  
   justify-content: center;
-}
-
-* {
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
 }
 
 .page-img {
@@ -96,13 +107,14 @@ border-color: rgb(25, 128, 141); */
 }
 
 .welcome_title{
+  /* font-family: ; */
+  /* font-family: itc-stone-sans-std-semibold; */
   display:flex;
   align-items: center;  
   justify-content: center;
 }
 
 .quote_text{
-  font-size: 24px;
   font-weight: 100;
   font-style: italic;
   display:flex;
