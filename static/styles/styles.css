@@ -94,3 +94,18 @@ border-color: rgb(25, 128, 141); */
 .cards {
   display:flex;
 }
+
+.welcome_title{
+  display:flex;
+  align-items: center;  
+  justify-content: center;
+}
+
+.quote_text{
+  font-size: 24px;
+  font-weight: 100;
+  font-style: italic;
+  display:flex;
+  align-items: center;  
+  justify-content: center;
+}
