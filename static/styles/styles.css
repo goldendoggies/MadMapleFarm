@@ -107,8 +107,6 @@ border-color: rgb(25, 128, 141); */
 }
 
 .welcome_title{
-  /* font-family: ; */
-  /* font-family: itc-stone-sans-std-semibold; */
   display:flex;
   align-items: center;  
   justify-content: center;
